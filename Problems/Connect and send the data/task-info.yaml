@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def submit_data(data, client, address):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8678
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8678">JetBrains
+    Academy</a></html>
+  time: Fri, 23 Oct 2020 14:39:43 UTC
+record: -1
