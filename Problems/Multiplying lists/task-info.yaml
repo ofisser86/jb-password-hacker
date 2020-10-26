@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def my_product(list_1, list_2):
+        return list(...)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8128
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8128">JetBrains
+    Academy</a></html>
+  time: Mon, 26 Oct 2020 09:18:20 UTC
+record: -1

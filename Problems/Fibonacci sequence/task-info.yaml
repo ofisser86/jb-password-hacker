@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def fibonacci(n):
+        yield ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8277
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8277">JetBrains
+    Academy</a></html>
+  time: Mon, 26 Oct 2020 14:39:53 UTC
+record: -1

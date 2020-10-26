@@ -1,0 +1,13 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# put your code here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5850
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/5850">JetBrains
+    Academy</a></html>
+  time: Mon, 26 Oct 2020 10:10:28 UTC
+record: -1
