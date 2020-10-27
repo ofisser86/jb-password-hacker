@@ -203,6 +203,22 @@ files:
         test.run_tests()
         test.stop_server()
   learner_created: false
+- name: hacking/t.py
+  visible: true
+  text: |-
+    import itertools
+
+    with open('passwords.txt', 'r') as f:
+        password = f.readlines()
+        l_pass = []
+        for i in password:
+            l_pass.append(i.replace('\n', ''))
+
+        for j in l_pass:
+            x = map(''.join, itertools.product(*((c.upper(), c.lower()) for c in j)))
+            for m in x:
+                print(m)
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/80/stages/445/implement
 status: Unchecked
 record: -1
