@@ -1,0 +1,13 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# the variable ''teams'' is already defined'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8493
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8493">JetBrains
+    Academy</a></html>
+  time: Tue, 27 Oct 2020 08:31:16 UTC
+record: -1
