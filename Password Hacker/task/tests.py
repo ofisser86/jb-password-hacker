@@ -30,7 +30,8 @@ def logins():
 
 def random_password():
     '''function - generating random password of length from 6 to 10'''
-    return ''.join(random.choice(abc) for i in range(random.randint(6, 10)))
+    ps = 'abc'
+    return ps
 
 
 def random_login():

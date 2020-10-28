@@ -2,6 +2,8 @@ import sys
 import itertools
 from socket import socket
 import json
+from datetime import datetime
+
 
 with socket() as client:
     host = sys.argv[1]
@@ -21,8 +23,10 @@ with socket() as client:
                     "password": i[1]
                 }
                 json_data = json.dumps(data).encode('utf8')
+                start = datetime.now()
                 client.send(json_data)
                 response = client.recv(1024)
+                finish = datetime.now()
                 if json.loads(response.decode('utf8'))['result'] == "Wrong password!":
                     new_data = {
                     "login": data['login'],
